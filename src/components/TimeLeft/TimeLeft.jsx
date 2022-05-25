@@ -10,6 +10,6 @@ export default function TimeLeft({hours, minutes, seconds}) {
 }
 
   TimeLeft.defaultProps = {
-    minutes: 0,
-    seconds: 0
+    minutes: '00',
+    seconds: '00'
   }

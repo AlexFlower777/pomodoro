@@ -1,4 +1,4 @@
-button {
+.button {
   background-color: #ffffff; /* Green */
   border: none;
   color: #e04943;
@@ -8,4 +8,41 @@ button {
   display: inline-block;
   font-size: 20px;
   border-radius: 3%
+}
+
+.Main {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius:5%
+}
+
+.btnModeBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.btnStartStopBlock {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modeButton {
+  background-color: #e04943;
+  border: none;
+  /* border: 2px solid #e04943; */
+  /* border-radius: 50%; */
+  color: #ffffff;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3%;
+  white-space: pre-line;
+}
+
+.activeBtn {
+  background-color: #aa2f2b;
 }

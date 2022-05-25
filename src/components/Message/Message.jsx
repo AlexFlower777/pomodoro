@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 export default function Message({text}) {
   return (
-    <h3>{text}</h3>
+    <p>{text}</p>
   )
 }
 
